@@ -17,11 +17,11 @@ public class OpenApiConfiguration{
             @Value("${documentation.application.version}") String applicationVersion) {
         return new OpenAPI()
                 .info(new Info()
-                        .title("ACME Learning Center API")
+                        .title("Hotel World API")
                         .version(applicationVersion)
                         .description(applicationDescription)
                         .termsOfService("https://acme-HelloHotel.com/tos")
-                        .license(new License().name("Apache 2.0 License").url("https://acme-learning.com/license"))
+                        .license(new License().name("Apache 2.0 License").url("https://acme-hotelWorld.com/license"))
                         .contact(new Contact()
                                 .url("https://acme.studio")
                                 .name("ACME.studio")));
